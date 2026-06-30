@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>ZO Bakery</title>
+
+<link rel="icon" href="https://tapcom-live.ams3.cdn.digitaloceanspaces.com/media/cache/d2/da/d2da192b6ab404c249e1130d7ef35e01.jpg">
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #000;
+        color: white;
+    }
+
+    header {
+        text-align: center;
+        padding: 25px 10px;
+        color: #CFB095;
+	font-family: Arial, sans-serif;
+    }
+
+    .logo-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 7px;
+        font-size: 34px;
+	font-family:'Times New Roman', serif; 
+        font-weight:;
+        color: #CFB095;
+    }
+
+    .subtitle {
+        font-size: 12px;
+        color: beige;
+        font-family: EFFRA ;
+        margin-top: 0px;
+    }
+
+    .logo-title img {
+        width: 45px;
+        border-radius: 0%;
+    }
+
+    /* 🔥 GRID FIX (4 per row) */
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+        padding: 40px;
+        max-width: 900px;
+        margin: auto;
+        justify-items: center;
+    }
+
+    .card {
+        text-align: center;
+    }
+
+    .card img {
+        width: 150px;
+        height: 150px;
+        border-radius: 25px;
+        transition: transform 0.3s ease;
+    }
+
+    .card img:hover {
+        transform: scale(1.1);
+        box-shadow: 0 0 25px yellow;
+    }
+
+    .card p {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    /* Colors */
+    .zo { color: white; }
+    .talabat { color: #FE5F1E; }
+    .deliveroo { color: teal; }
+    .vthru { color: teal; }
+    .keeta { color: yellow; }
+    .CoffeeApp { color: white; }
+    .bilbayt { color: white; }
+    .snoonu { color: red; }
+
+    footer {
+        text-align: center;
+        padding: 20px;
+        color: beige;
+        font-size: 13px;
+        opacity: 0.8;
+    }
+
+    /* 📱 Mobile fix */
+    @media (max-width: 768px) {
+        .grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    @media (max-width: 500px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+    }
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <div class="logo-title">
+        <img src="images\Zo_Bakery3.png">
+        ZO BAKERY
+    </div>
+    <div class="subtitle"><i>Your Neighbourhood Bakery</i></div>
+</header>
+
+<section class="grid">
+
+    <div class="card">
+        <a href="https://www.zobakerykw.com/" target="_blank"><img src="images\Zo_Bakery2.png"><p class="zo">Ordable</p></a>
+    </div>
+
+    <div class="card">
+        <a href="https://www.talabat.com/kuwait/restaurant/38857/zo-bakery-yarmouk?aid=5721" target="_blank"><img src="images\TALABAT_IMG.webp"><p class="talabat">Talabat</p></a>
+    </div>
+
+    <div class="card">
+        <a href="https://deliveroo.com.kw/en/menu/kuwait/yarmouk/zo-bakery-yarmouk" target="_blank"><img src="images\DELIVEROO_IMG.svg"><p class="deliveroo">Deliveroo</p></a>
+    </div>
+
+    <div class="card">
+        <a href="https://02vpq.app.link/2CHqqs3pn3b" target="_blank"><img src="images\VTHRU_IMG.webp"><p class="vthru">Vthru</p></a>
+    </div>
+
+    <div class="card">
+        <a href="https://www.keeta-global.com/KW/en" target="_blank"><img src="images\KEETA_IMG.png"><p class="keeta">Keeta</p></a>
+    </div>
+
+    <div class="card">
+        <a href="https://www.cofeapp.com/" target="_blank"><img src="images\COFFEEAPP_IMG.png"><p class="CoffeeApp">CoffeeApp</p></a>
+    </div>
+
+    <div class="card">
+        <a href="https://www.bilbayt.com/kw/en/vendors/zo-bakery-yarmouk---gathering" target="_blank"><img src="images\bilbayt_IMG.svg"><p class="bilbayt">Bilbayt</p></a>
+    </div>
+
+    <div class="card">
+        <a href="https://kwt.snoonu.com/search?q=zo%20bakery" target="_blank"><img src="images\SNOONU_IMG.webp"><p class="snoonu">Snoonu</p></a>
+    </div>
+
+</section>
+
+
+</body>
+</html>
